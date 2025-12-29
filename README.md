@@ -1,3 +1,5 @@
+> **[🇺🇸 Read in English](README.en.md)**
+
 # Encurtador de URLs
 
 Esse é um projeto que eu criei pra estudar e colocar em prática algumas coisas do ecossistema .NET.
