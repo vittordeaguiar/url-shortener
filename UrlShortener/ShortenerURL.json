@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "Shortener URL",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Shorten URL",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "{{URL}}/shorten",
+          "protocol": "",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "shorten"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"url\": \"https://www.google.com/search?q=design+patterns+csharp\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "URL",
+      "value": "",
+      "type": "default"
+    }
+  ]
+}
